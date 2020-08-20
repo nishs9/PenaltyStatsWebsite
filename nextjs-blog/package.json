@@ -12,7 +12,8 @@
     "next": "9.3.5",
     "react": "16.13.1",
     "react-csv-to-table": "0.0.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "papaparse": "^5.2.0"
