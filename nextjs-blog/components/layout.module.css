@@ -23,3 +23,23 @@
   .backToHome {
     margin: 3rem 0 0;
   }
+
+  .graphImage {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .column {
+    float : left;
+    width: 50%;
+    padding: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
