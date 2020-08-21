@@ -12,11 +12,12 @@ export default function Test() {
             <Head>
                 <title>Test Page</title>
             </Head>
-            <section className={utilStyles.headingMd}>
-                <p>Test team page</p>
-            </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <CsvToHtmlTable data={csvData} csvDelimiter="," />
+                <CsvToHtmlTable data={csvData}
+                hasHeader='true'
+                csvDelimiter="," 
+                tableClassName = {utilStyles.table}
+                tableRowClassName = {utilStyles.tr} />
             </section>
         </Layout>
     )

@@ -57,3 +57,11 @@
   .lightText {
     color: #999;
   }
+
+  .table, .td, .th {
+    border: 1px solid black;
+    width: 50%;
+    font-size:13px;
+  }
+
+  .tr:nth-child(even) {background-color: #f2f2f2;}
