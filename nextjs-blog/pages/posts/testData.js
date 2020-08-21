@@ -1,4 +1,4 @@
-import Layout from '../../components/layout'
+import Layout, { siteTitle } from '../../components/teamPageLayout'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import { CsvToHtmlTable } from 'react-csv-to-table'
@@ -10,7 +10,7 @@ export default function Test() {
     return (
         <Layout home>
             <Head>
-                <title>Test Page</title>
+                <title>{siteTitle}</title>
             </Head>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <CsvToHtmlTable data={csvData}
