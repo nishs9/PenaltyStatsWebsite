@@ -8,7 +8,7 @@ var csvData = text;
 
 export default function Test() {
     return (
-        <Layout home>
+        <Layout>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
