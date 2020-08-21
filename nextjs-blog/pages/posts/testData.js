@@ -12,7 +12,10 @@ export default function Test() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+            <section className={`${utilStyles.headingTeamPage} ${utilStyles.padding1px}`}>
+                <p>
+                    <i>2018-2019 Season Penalty Report</i>
+                </p>
                 <CsvToHtmlTable data={csvData}
                 csvDelimiter="," 
                 tableClassName = {utilStyles.table}
