@@ -1,4 +1,4 @@
-const text = `Date,HomeTeam,HomeScore,AwayTeam,AwayScore,tPEN(num),tPEN(yards),tDHP(num),tDHP(yards),tEPDHP,tDEP(num),tDEP(yards),tEPDEP,tOP(num),tOP(yards),tEPDOP
+const text = `Date,Home Team,Home Score,Away Team,Away Score,tPEN(#),tPEN(yards),tDHP(#),tDHP(yards),tEPDHP,tDEP(#),tDEP(yards),tEPDEP,tOP(#),tOP(yards),tEPDOP
 2018-09-09,ARI,6,WAS,24,7,52,1,5,0.675,3,32,3.038499999999999,3,15,2.2665999999999995
 2018-09-16,LA,34,ARI,0,7,45,5,30,1.8598,1,10,2.0595,1,5,0.675
 2018-09-23,ARI,14,CHI,16,5,38,1,5,0.675,2,25,2.3445,2,8,1.2330000000000005

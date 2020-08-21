@@ -14,7 +14,6 @@ export default function Test() {
             </Head>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <CsvToHtmlTable data={csvData}
-                hasHeader='true'
                 csvDelimiter="," 
                 tableClassName = {utilStyles.table}
                 tableRowClassName = {utilStyles.tr} />
