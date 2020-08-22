@@ -2,6 +2,7 @@ import Layout, { siteTitle } from '../../components/teamPageLayout'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import styles from '../../components/layout.module.css'
+import Link from 'next/link'
 import { CsvToHtmlTable } from 'react-csv-to-table'
 import { getAllTeamNames, getTeamData } from '../../lib/teamList'
 
@@ -38,6 +39,13 @@ export default function TeamPage({ teamData }) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={`${utilStyles.headingTeamPage} ${utilStyles.padding1px}`}>
+                <header className={styles.header}>
+                    <h2 className={utilStyles.headingLg}>
+                        <Link href="/">
+                            <a className={utilStyles.colorInherit}>{team}'s Penalty Stats</a>
+                        </Link>
+                </h2>
+                </header>
                 <p>
                     <i>2019-2020 Season Penalty Report</i>
                 </p>
