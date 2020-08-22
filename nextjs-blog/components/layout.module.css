@@ -24,9 +24,16 @@
     margin: 3rem 0 0;
   }
 
-  .graphImage {
+  .boxplotImage {
     max-width: 100%;
     height: auto;
+  }
+
+  .graphImage {
+    max-width: 75%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .column {
