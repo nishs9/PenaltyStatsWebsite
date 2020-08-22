@@ -24,7 +24,7 @@ export default function Test() {
                 <div className={styles.column}>
                     <p><i>EPC boxplot</i></p>
                     <img
-                    src="/images/ARI_allExpPointsboxplot.png"
+                    src="https://res.cloudinary.com/nflpenaltystatsproject/image/upload/f_auto/ARI_allExpPointsboxplot_bevoyx.png"
                     className={styles.graphImage}
                     />
                 </div>
