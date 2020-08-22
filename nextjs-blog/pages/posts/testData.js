@@ -21,14 +21,14 @@ export default function Test() {
                 csvDelimiter="," 
                 tableClassName = {utilStyles.table}
                 tableRowClassName = {utilStyles.tr} />
-                <div class={styles.column}>
+                <div className={styles.column}>
                     <p><i>EPC boxplot</i></p>
                     <img
                     src="/images/ARI_allExpPointsboxplot.png"
                     className={styles.graphImage}
                     />
                 </div>
-                <div class={styles.column}>
+                <div className={styles.column}>
                     <p><i>EPC for each game</i></p>
                     <img
                     src="/images/ARI_allExpPointsgraph.png"
