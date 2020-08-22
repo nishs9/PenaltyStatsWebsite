@@ -69,7 +69,7 @@ export default function TeamPage({ teamData }) {
                 csvDelimiter=","
                 tableClassName={utilStyles.table}
                 tableRowClassName={utilStyles.tr} />
-                <div class={styles.column}>
+                <div className={styles.column}>
                     <p><i>EPC boxplot</i></p>
                     <img
                     src={season18BoxPlot}
