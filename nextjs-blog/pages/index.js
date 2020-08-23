@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
+import styles from '../components/layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/Link'
@@ -21,6 +22,15 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <div className={styles.navBar}>
+          <h2><a href="/">Home</a></h2>
+        </div>
+        <div className={styles.navBar}>
+          <h2><a href="/stats_pages/teamSelectPage">Stats</a></h2>
+        </div>
+        <div className={styles.navBar}>
+          <h2><a href="/">Glossary</a></h2>
+        </div>
         <p>Hello, I'm Nish. I am a senior at Georgia Tech majoring in computer science.
           this site is dedicated to a little side project I have been working on this summer.
           Read through some of the blog posts below if you want to get a deeper dive into the work that I have done.
