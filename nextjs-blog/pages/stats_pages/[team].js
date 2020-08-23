@@ -84,7 +84,7 @@ export default function TeamPage({ teamData }) {
                     className={styles.boxplotImage}
                     />
                 </div>
-                <div class={styles.column}>
+                <div className={styles.column}>
                     <p><i>EPC for each game</i></p>
                     <img
                     src={season18Graph}
