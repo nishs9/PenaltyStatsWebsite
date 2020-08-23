@@ -92,6 +92,7 @@ export default function TeamPage({ teamData }) {
                     />
                 </div>
             </section>
+            <div className={styles.row} />
         </Layout>
     )
 }

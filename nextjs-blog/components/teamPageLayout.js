@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
         {(
           <div className={styles.backToHome}>
             <br />
-            <Link href="/">
+            <Link href="/stats_pages/teamSelectPage">
               <a>← Back</a>
             </Link>
           </div>
