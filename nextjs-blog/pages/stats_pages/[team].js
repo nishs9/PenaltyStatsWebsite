@@ -39,6 +39,18 @@ export default function TeamPage({ teamData }) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={`${utilStyles.headingTeamPage} ${utilStyles.padding1px}`}>
+                <section className={utilStyles.headingMd}>
+                    <div className={styles.navBar}>
+                        <h2><a href="/">Home</a></h2>
+                    </div>
+                    <div className={styles.navBar}>
+                        <h2><a href="/stats_pages/teamSelectPage">Stats</a></h2>
+                    </div>
+                    <div className={styles.navBar}>
+                        <h2><a href="/">Glossary</a></h2>
+                    </div>
+                </section>
+                <div className={styles.row} />
                 <header className={styles.header}>
                     <h2 className={utilStyles.headingLg}>
                         <Link href="/">
