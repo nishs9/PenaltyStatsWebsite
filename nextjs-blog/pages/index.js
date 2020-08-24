@@ -34,7 +34,8 @@ export default function Home({ allPostsData }) {
         <p>Hello, I'm Nish. I am a senior at Georgia Tech majoring in computer science.
           this site is dedicated to a little side project I have been working on this summer.
           Read through some of the blog posts below if you want to get a deeper dive into the work that I have done.
-          If you have any questions or feedback email me at *insert penalty stats email here*.
+          If you have any questions or feedback email me at  
+          <a href="mailto: nflpenaltystatsproject@gmail.com" target="_top"> nflpenaltystatsproject@gmail.com</a>.
           Hope you enjoy!
         </p>
       </section>
