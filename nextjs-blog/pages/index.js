@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
           <h2><a href="/stats_pages/teamSelectPage">Stats</a></h2>
         </div>
         <div className={styles.navBar}>
-          <h2><a href="/">Glossary</a></h2>
+          <h2><a href="/posts/glossary">Glossary</a></h2>
         </div>
         <p>Hello, I'm Nish. I am a senior at Georgia Tech majoring in computer science.
           this site is dedicated to a little side project I have been working on this summer.

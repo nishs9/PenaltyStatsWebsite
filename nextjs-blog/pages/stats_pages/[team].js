@@ -47,7 +47,7 @@ export default function TeamPage({ teamData }) {
                         <h2><a href="/stats_pages/teamSelectPage">Stats</a></h2>
                     </div>
                     <div className={styles.navBar}>
-                        <h2><a href="/">Glossary</a></h2>
+                        <h2><a href="/posts/glossary">Glossary</a></h2>
                     </div>
                 </section>
                 <div className={styles.row} />
