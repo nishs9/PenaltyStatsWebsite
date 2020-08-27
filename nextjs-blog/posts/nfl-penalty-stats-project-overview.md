@@ -1,6 +1,6 @@
 ---
 title: 'NFL Penalty Stats Project Overview'
-date: '2020-08-13'
+date: '2020-08-26'
 ---
 
 If you haven't already read the introduction for this project, I suggest that you do. For the rest of you, let's dive into what I have done so far. 

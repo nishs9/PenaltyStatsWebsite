@@ -1,6 +1,6 @@
 ---
 title: 'NFL Penalty Stats Project Introduction'
-date: '2020-08-13'
+date: '2020-08-25'
 ---
 
 Welcome to the NFL Penalty Stats Project. This is a little side project that I have undertaken to take a closer look at penalty statistics in the NFL. I have always had a fascination with data analysis and sports and I wanted to merge my passion for both into a side project that could make my free time this summer a little more productive. 

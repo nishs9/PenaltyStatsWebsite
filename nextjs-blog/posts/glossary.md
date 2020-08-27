@@ -1,6 +1,6 @@
 ---
 title: 'Glossary'
-date: '2020-08-13'
+date: '2020-08-27'
 ---
 <b>Drive Hindering Penalty (DHP)</b>
 - A drive hindering penalty is just the term I use for offensive penalties such as holding, false start, etc.
