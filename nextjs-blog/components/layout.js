@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Nish Sethunath'
+const name = 'NFL Penalty Stats Project'
 export const siteTitle = 'NFL Penalty Stats Project'
 
 export default function Layout({ children, home }) {
@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.jpg"
+              src="/images/header.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
@@ -39,7 +39,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <img
-                  src="/images/profile.jpg"
+                  src="/images/header.jpg"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />

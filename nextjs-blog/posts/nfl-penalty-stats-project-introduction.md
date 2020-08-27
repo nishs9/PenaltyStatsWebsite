@@ -3,7 +3,7 @@ title: 'NFL Penalty Stats Project Introduction'
 date: '2020-08-25'
 ---
 
-Welcome to the NFL Penalty Stats Project. This is a little side project that I have undertaken to take a closer look at penalty statistics in the NFL. I have always had a fascination with data analysis and sports and I wanted to merge my passion for both into a side project that could make my free time this summer a little more productive. 
+Welcome to the NFL Penalty Stats Project. This is a little side project that I have undertaken to take a closer look at penalty statistics in the NFL. I have always had a fascination with data analysis and sports and I wanted to merge my passion for both into a side project that could make my free time a little more productive. 
 
 At the moment, this site and project are a work in progress. I'll be working to collect more data over time (including weekly stats during the upcoming 2020-2021 season) and update the general look and feel of the website as well. I intend to use the blog section of this site as way to provide updates on these changes as and when they happen.
 
