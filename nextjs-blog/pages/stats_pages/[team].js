@@ -4,7 +4,7 @@ import utilStyles from '../../styles/utils.module.css'
 import styles from '../../components/layout.module.css'
 import Link from 'next/link'
 import { CsvToHtmlTable } from 'react-csv-to-table'
-import { getAllTeamNames, getTeamData } from '../../lib/teamList'
+import { getAllTeamNames, getTeamData, getTeamNameMap } from '../../lib/teamList'
 
 
 export async function getStaticPaths() {
@@ -26,6 +26,8 @@ export async function getStaticProps({ params }) {
 
 export default function TeamPage({ teamData }) {
     const team = teamData.team
+    const teamNameMap = getTeamNameMap()
+    const fullTeamName = teamNameMap[team]
     const season18TableData = require('../../public/data/18-19' + team + '_SeasonWebJS.js');
     const season18BoxPlot = 'https://res.cloudinary.com/nflpenaltystatsproject/image/upload/f_auto/18-19%20'+team+'/'+team+'_allExpPointsboxplot.png'
     const season18Graph = 'https://res.cloudinary.com/nflpenaltystatsproject/image/upload/f_auto/18-19%20'+team+'/'+team+'_allExpPointsgraph.png'
@@ -39,6 +41,13 @@ export default function TeamPage({ teamData }) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={`${utilStyles.headingTeamPage} ${utilStyles.padding1px}`}>
+                <header className={styles.header}>
+                    <h2 className={utilStyles.headingLg}>
+                        <Link href="/">
+                            <a className={utilStyles.colorInherit}>{fullTeamName} Penalty Stats</a>
+                        </Link>
+                    </h2>
+                </header>
                 <section className={utilStyles.headingMd}>
                     <div className={styles.navBar}>
                         <h2><a href="/">Home</a></h2>
@@ -51,13 +60,6 @@ export default function TeamPage({ teamData }) {
                     </div>
                 </section>
                 <div className={styles.row} />
-                <header className={styles.header}>
-                    <h2 className={utilStyles.headingLg}>
-                        <Link href="/">
-                            <a className={utilStyles.colorInherit}>{team}'s Penalty Stats</a>
-                        </Link>
-                </h2>
-                </header>
                 <p>
                     <i>2019-2020 Season Penalty Report</i>
                 </p>
