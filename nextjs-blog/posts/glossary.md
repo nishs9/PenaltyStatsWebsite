@@ -19,7 +19,7 @@ date: '2020-08-27'
 <b>Expected Points Conceded (EPC)</b>
 - This stat is simply the absolute value of the difference between the EP before a penalty and the EP after a penalty. It measure the relative value added/lost when a penalty is committed. 
 - You will also see several adaptation of EPC which are just filtered based on the type of penalty:
-	- <i>Total Expected Points Conceded from Penalties (tEPCP)</i>: This is the total amount of EPC conceded by a team from all types of penalties.
+	- <i>Total Expected Points Conceded from Penalties (tEPCP/tEPC)</i>: This is the total amount of EPC conceded by a team from all types of penalties.
 	- <i>Total Expected Points Conceded from Drive Hindering Penalties (tEPCDHP/tEPDHP)</i>: This is the total amount of EPC conceded by a team from Drive Hindering Penalties.
 	- <i>Total Expected Points Conceded from Drive Extending Penalties (tEPCDEP/tEPDEP)</i>: This is the total amount of EPC conceded by a team from Drive Extending Penalties.
 	- <i>Total Expected Points Conceded from Other Penalties (tEPCOP/tEPOP)</i>: This is the total amount of EPC conceded by a team from Other Penalties.
