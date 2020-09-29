@@ -30,8 +30,16 @@
     margin: 3rem 0 0;
   }
 
-  .boxplotImage {
+  .tableImage {
     max-width: 100%;
+    height: auto;
+  }
+
+  .boxplotImage {
+    max-width: 82.5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2px;
     height: auto;
   }
 

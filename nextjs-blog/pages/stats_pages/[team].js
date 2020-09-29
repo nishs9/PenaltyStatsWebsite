@@ -31,9 +31,11 @@ export default function TeamPage({ teamData }) {
     const season18TableData = require('../../public/data/18-19' + team + '_SeasonWebJS.js');
     const season18BoxPlot = 'https://res.cloudinary.com/nflpenaltystatsproject/image/upload/f_auto/18-19%20'+team+'/'+team+'_allExpPointsboxplot.png'
     const season18Graph = 'https://res.cloudinary.com/nflpenaltystatsproject/image/upload/f_auto/18-19%20'+team+'/'+team+'_allExpPointsgraph.png'
+    const season18Table = 'https://res.cloudinary.com/nflpenaltystatsproject/image/upload/f_auto/18-19%20'+team+'/'+team+'_penaltySummaryTable.png'
     const season19TableData = require('../../public/data/19-20' + team + '_SeasonWebJS.js');
     const season19BoxPlot = 'https://res.cloudinary.com/nflpenaltystatsproject/image/upload/f_auto/19-20%20'+team+'/'+team+'_allExpPointsboxplot.png'
     const season19Graph = 'https://res.cloudinary.com/nflpenaltystatsproject/image/upload/f_auto/19-20%20'+team+'/'+team+'_allExpPointsgraph.png'
+    const season19Table = 'https://res.cloudinary.com/nflpenaltystatsproject/image/upload/f_auto/19-20%20'+team+'/'+team+'_penaltySummaryTable.png'
     
     return (
         <Layout>
@@ -81,6 +83,10 @@ export default function TeamPage({ teamData }) {
                     className={styles.graphImage}
                     />
                 </div>
+                <div className={utilStyles.summaryGraph}>
+                    <p><i>Penalty Stats Summary Table</i></p>
+                </div>
+                <img src={season19Table} className={styles.graphImage}/>
             </section>
             <div className={styles.row} />
             <section className={`${utilStyles.headingTeamPage} ${utilStyles.padding1px}`}>
@@ -105,6 +111,10 @@ export default function TeamPage({ teamData }) {
                     className={styles.graphImage}
                     />
                 </div>
+                <div className={utilStyles.summaryGraph}>
+                    <p><i>Penalty Stats Summary Table</i></p>
+                </div>
+                <img src={season18Table} className={styles.graphImage}/>
             </section>
             <div className={styles.row} />
         </Layout>

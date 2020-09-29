@@ -30,6 +30,10 @@
     line-height: 1.5;
   }
 
+  .summaryGraph {
+    text-align: center;
+  }
+
   .navLink {
     font-size: 1.2rem;
     line-height: 1.5;
