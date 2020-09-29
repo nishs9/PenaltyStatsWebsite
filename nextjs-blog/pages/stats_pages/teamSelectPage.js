@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../../components/teamSelectPageLayout'
 import utilStyles from '../../styles/utils.module.css'
 import styles from '../../components/layout.module.css'
-import Link from 'next/Link'
+import Link from 'next/link'
 import { getAFCTeams, getNFCTeams } from '../../lib/teamList'
 
 export async function getStaticProps() {
