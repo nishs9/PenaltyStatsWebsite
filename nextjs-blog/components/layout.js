@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Link from 'next/pagelink'
 
 const name = 'NFL Penalty Stats Project'
 export const siteTitle = 'NFL Penalty Stats Project'

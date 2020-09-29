@@ -2,7 +2,7 @@ import Layout, { siteTitle } from '../../components/teamPageLayout'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import styles from '../../components/layout.module.css'
-import Link from 'next/link'
+import Link from 'next/pagelink'
 import { CsvToHtmlTable } from 'react-csv-to-table'
 import { getAllTeamNames, getTeamData, getTeamNameMap } from '../../lib/teamList'
 
